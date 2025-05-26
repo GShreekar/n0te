@@ -8,4 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  server: {
+    allowedHosts: ['n0te.local'],
+    host: '0.0.0.0',
+    port: 4073
+  },
 })
